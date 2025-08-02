@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Home from "./pages/Home";
-import Service from "./components/services/Service";
+import Service from "./components/services/WarehouseHero.jsx";
 import ProductRange from "./components/services/ProductRange";
 import Footer from "./components/footer/Footer";
 import AboutSection from "./components/About/About";
@@ -17,9 +17,9 @@ function App() {
     <>
       <Home />
       {/* <HomePage /> */}
-      {/* <Service /> */}
-      <ProductRange />
       <AboutSection />
+      <ProductRange />
+      <Service />
       <TestimonialCarousel />
       <Footer />
     </>
