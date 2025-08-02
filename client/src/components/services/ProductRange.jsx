@@ -134,7 +134,7 @@ import React from "react";
 const ServiceCard = ({ image, title, description, altText }) => {
   return (
     <div className="flex flex-col items-center text-center group">
-      <div className="relative overflow-hidden rounded-lg shadow-lg mb-4 w-full aspect-[4/3] max-w-[280px]">
+      <div className="relative overflow-hidden rounded-lg shadow-lg mb-4 w-full aspect-[4/3] max-w-[480px]">
         <img
           src={image}
           alt={altText}
@@ -145,7 +145,7 @@ const ServiceCard = ({ image, title, description, altText }) => {
       <h3 className="text-lg font-bold text-blue-900 mb-3 uppercase tracking-wide">
         {title}
       </h3>
-      <p className="text-gray-600 text-sm leading-relaxed max-w-[250px] px-2">
+      <p className="text-gray-600 text-sm leading-relaxed max-w-[450px] px-2">
         {description}
       </p>
       {/* <div className="pt-4">

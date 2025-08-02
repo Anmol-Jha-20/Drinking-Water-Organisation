@@ -275,8 +275,9 @@ const AboutSection = () => {
                 30 Years Experience
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Our dedication an offendit philo sophia nec, no mei maiorum
-                appell antur compre hensam.
+                Our dedication to quality, innovation, and customer satisfaction
+                has made us a trusted name in water solutions for over three
+                decades.
               </p>
             </div>
 
@@ -289,8 +290,9 @@ const AboutSection = () => {
                 Water Resource Management Specialists
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                We are specialists in offendit ophia necei maiorum antur compre
-                hensam etiam ut labore.
+                offering expert solutions in drilling, irrigation, rainwater
+                harvesting, and system installations to ensure efficient and
+                sustainable water use.
               </p>
             </div>
 

@@ -169,7 +169,7 @@ const TestimonialCarousel = () => {
   const testimonials = [
     {
       id: 1,
-      text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.",
+      text: "Excellent borewell drilling service—quick, clean, and professional. The team explained the process clearly and completed it on time. Highly satisfied and would recommend to others!",
       name: "John Doe",
       position: "CEO, Company Name",
       image:
@@ -177,7 +177,7 @@ const TestimonialCarousel = () => {
     },
     {
       id: 2,
-      text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.",
+      text: "Installed a rainwater harvesting system for our home. The quality of work was top-notch and pricing was fair. Really impressed with their expertise and support.",
       name: "Mitchel Smith",
       position: "CEO of Port Foundation",
       image:
@@ -185,7 +185,7 @@ const TestimonialCarousel = () => {
     },
     {
       id: 3,
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      text: "Reliable and affordable irrigation service for my farm. Water usage is now much more efficient. Great experience from start to finish!",
       name: "Sarah Johnson",
       position: "CTO, Tech Solutions",
       image:
@@ -193,7 +193,7 @@ const TestimonialCarousel = () => {
     },
     {
       id: 4,
-      text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "Very professional in deep tubewell installation. They came on time, finished the job smoothly, and left the site clean. Would definitely hire them again.",
       name: "Michael Brown",
       position: "Founder, Innovation Hub",
       image:
