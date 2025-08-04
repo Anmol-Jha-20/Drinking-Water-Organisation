@@ -145,7 +145,7 @@ const ServiceCard = ({ image, title, description, altText }) => {
       <h3 className="text-lg font-bold text-blue-900 mb-3 uppercase tracking-wide">
         {title}
       </h3>
-      <p className="text-gray-600 text-sm leading-relaxed max-w-[450px] px-2">
+      <p className="text-gray-600 text-sm md:text-xl leading-relaxed max-w-[450px] px-2">
         {description}
       </p>
       {/* <div className="pt-4">
