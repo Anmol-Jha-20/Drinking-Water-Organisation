@@ -6,8 +6,9 @@ import {
   Phone,
   ChevronDown,
 } from "lucide-react";
-import waterefficiencyImage from "../assets/waterefficiency.png";
-import smartwaterconservationimage from "../assets/SmartWaterConservation.png";
+import waterefficiencyImage from "../assets/waterefficiency.webp";
+import smartwaterconservationimage from "../assets/SmartWaterConservation.webp";
+import WaterSustainbilityImage from "../assets/WaterSustainbility.webp";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -30,8 +31,7 @@ const Home = () => {
       subtitle: "AND REMODELING",
       description:
         "Water Sustainability refers to the responsible management and use of water resources to ensure availability for current and future generations. It involves conserving freshwater, protecting natural ecosystems, reducing waste, and promoting efficient water use in agriculture, industry, and daily life.",
-      image:
-        "https://img.freepik.com/free-photo/branch-with-water-drops_181624-4631.jpg?t=st=1754116436~exp=1754120036~hmac=c28a406f459aab3b2aa68c310432d83df2d1d4bf7533e81c8399f30e7f7988eb&w=1060",
+      image: WaterSustainbilityImage,
       buttons: ["OUR SERVICES", "GET A QUOTE"],
     },
     {
@@ -46,41 +46,14 @@ const Home = () => {
 
   // Navigation menu data
   const menuItems = [
-    { title: "HOME", href: "#", active: true },
-    // {
-    //   title: "PAGES",
-    //   href: "#",
-    //   hasDropdown: true,
-    //   hot: true,
-    //   dropdown: [
-    //     { title: "About Pages", href: "#", active: true },
-    //     {
-    //       title: "Service Pages",
-    //       href: "#",
-    //       hasSubDropdown: true,
-    //       subDropdown: [
-    //         { title: "Services", href: "#" },
-    //         { title: "Services - Alter", href: "#" },
-    //         { title: "Service Single", href: "#" },
-    //         { title: "Service Single - Alter", href: "#" },
-    //       ],
-    //     },
-    //     { title: "Project Pages", href: "#" },
-    //     { title: "Product Pages", href: "#" },
-    //     { title: "Gallery Pages", href: "#" },
-    //     { title: "FAQ Pages", href: "#" },
-    //     { title: "Typography", href: "#" },
-    //     { title: "Sitemap", href: "#" },
-    //     { title: "Error 404", href: "#" },
-    //   ],
-    // },
-    { title: "ABOUT US", href: "#" },
+    { title: "HOME", href: "/" },
+    { title: "ABOUT US", href: "/about-us" },
     {
       title: "OUR SERVICES",
       href: "#",
       hasDropdown: true,
       dropdown: [
-        { title: "Drilling Services", href: "#" },
+        { title: "Drilling Services", href: "/drilling-service" },
         { title: "Harvesting Service", href: "#" },
         { title: "Advanced Water Well Drilling Services", href: "#" },
         { title: "Installation Service", href: "#" },
@@ -88,11 +61,9 @@ const Home = () => {
         { title: "Rainwater Harvesting Service", href: "#" },
       ],
     },
-    // { title: "EXPERIENCE", href: "#" },
-    // { title: "PROJECTS", href: "#" },
-    { title: "BLOG", href: "#" },
-    // { title: "TESTIMONIAL", href: "#" },
-    { title: "CONTACT", href: "#" },
+
+    { title: "GALLERY", href: "/gallery" },
+    { title: "CONTACT", href: "/contact-us" },
   ];
 
   useEffect(() => {
