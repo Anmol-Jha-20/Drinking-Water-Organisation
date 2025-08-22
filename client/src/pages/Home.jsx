@@ -5,6 +5,7 @@ import {
   MapPin,
   Phone,
   ChevronDown,
+  MessageCircle,
 } from "lucide-react";
 import waterefficiencyImage from "../assets/waterefficiency.webp";
 import smartwaterconservationimage from "../assets/SmartWaterConservation.webp";
@@ -113,7 +114,7 @@ const Home = () => {
                 <span className="font-medium">(+91) 95328 88668</span>
               </div>
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-yellow-500" />
+                <MessageCircle className="w-4 h-4 text-yellow-500" />
                 <span className="text-gray-500">WhatsApp</span>
                 <span className="font-medium">(+91) 93352 49074</span>
               </div>

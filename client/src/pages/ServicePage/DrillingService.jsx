@@ -7,57 +7,39 @@ const DrillingService = () => {
   const services = [
     {
       id: 1,
-      title: "DESIGN AND BUILD",
+      title: "PVC Borewell Drilling Service",
       description:
-        "Aidid ipsum dolor sit amet consec adipis elit sed do eiusmod tempor incididut labore et dolore magna aliqua natus eiusmod tempor.",
+        "We offer expert PVC borewell drilling using high-quality, corrosion-resistant PVC casings ideal for residential, agricultural, and industrial use. With advanced equipment and skilled professionals, we ensure precise drilling, excellent water yield, and long-lasting performance—all with fast turnaround and minimal disruption.",
       image:
-        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://5.imimg.com/data5/ANDROID/Default/2022/7/WV/WP/DJ/6169003/prod-20220715-0743356041530766023575981-jpg-500x500.jpg",
       alt: "Construction building framework",
     },
     {
       id: 2,
-      title: "BUILDING CONSTRUCTION",
+      title: "Agriculture Drilling Service",
       description:
-        "Widid ipsum dolor sit amet consec adipis elit sed do eiusmod tempor incididut labore et dolore magna aliqua natus eiusmod tempor.",
+        "Boost your farm’s water access with our specialized Agriculture Drilling Services. We provide efficient and accurate borewell drilling tailored to agricultural needs, ensuring high water yield for irrigation. With advanced drilling rigs, expert operators, and durable casing solutions, we help farmers secure reliable water sources even in challenging terrains.",
       image:
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://5.imimg.com/data5/ANDROID/Default/2022/7/KL/OA/DB/6169003/product-jpeg-500x500.jpg",
       alt: "Steel bridge construction",
     },
     {
       id: 3,
-      title: "COMMERCIAL CONSTRUCTION",
+      title: "Commercial Drilling Service",
       description:
-        "Tidid ipsum dolor sit amet consec adipis elit sed do eiusmod tempor incididut labore et dolore magna aliqua natus eiusmod tempor.",
+        "Our Commercial Drilling Services are designed to meet the high demands of commercial and industrial water needs. From large-scale construction sites to factories and institutions, we deliver deep and dependable borewell solutions using advanced drilling rigs and high-strength casing materials.",
       image:
-        "https://images.unsplash.com/photo-1511818966892-d7d671e672a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://5.imimg.com/data5/SELLER/Default/2023/10/353940317/FH/TA/BM/6169003/commercial-drilling-service-500x500.png",
       alt: "Modern commercial building",
     },
     {
       id: 4,
-      title: "INTERIOR RENOVATION",
+      title: "Residential Drilling Service",
       description:
-        "Tidid ipsum dolor sit amet consec adipis elit sed do eiusmod tempor incididut labore et dolore magna aliqua natus eiusmod tempor.",
+        "Ensure a reliable and long-lasting water source for your home with our expert Residential Drilling Services. We provide safe, clean, and efficient borewell drilling tailored for residential properties, using advanced equipment and durable casing materials. Whether it's for a single house or a housing complex, we deliver precise, low-disruption drilling with guaranteed water access.",
       image:
-        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://5.imimg.com/data5/SELLER/Default/2022/7/LP/HV/QT/6169003/core-drilling-service-500x500.png",
       alt: "Modern interior dining room",
-    },
-    {
-      id: 5,
-      title: "REPAIR & MAINTENANCE",
-      description:
-        "Tidid ipsum dolor sit amet consec adipis elit sed do eiusmod tempor incididut labore et dolore magna aliqua natus eiusmod tempor.",
-      image:
-        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      alt: "Construction worker in hard hat",
-    },
-    {
-      id: 6,
-      title: "VIRTUAL DESIGN",
-      description:
-        "Tidid ipsum dolor sit amet consec adipis elit sed do eiusmod tempor incididut labore et dolore magna aliqua natus eiusmod tempor.",
-      image:
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      alt: "Modern skyscrapers and urban planning",
     },
   ];
 
@@ -195,12 +177,23 @@ const DrillingService = () => {
 
                 {/* Content Container */}
                 <div className="p-6 lg:p-8">
-                  <h3 className="text-xl lg:text-2xl font-bold text-blue-900 mb-4 tracking-wide">
+                  <h3 className="text-xl lg:text-2xl uppercase font-bold text-blue-900 mb-4 tracking-wide">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-base">
                     {service.description}
                   </p>
+                  <motion.button
+                    className="w-full bg-blue-600 hover:bg-blue-700 mt-6 cursor-pointer text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.98 }}
+                    onClick={() => {
+                      // Add your contact logic here
+                      alert(`Contact us for ${service.title} service!`);
+                    }}
+                  >
+                    Contact Us
+                  </motion.button>
                 </div>
               </motion.div>
             ))}
