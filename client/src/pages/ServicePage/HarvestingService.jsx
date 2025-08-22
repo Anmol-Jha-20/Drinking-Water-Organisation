@@ -3,43 +3,25 @@ import { motion } from "framer-motion";
 import Header from "../../components/Header/Header.jsx";
 import DrillingImage from "../../assets/Drilling.jpeg";
 
-const DrillingService = () => {
+const HarvestingService = () => {
   const services = [
     {
       id: 1,
-      title: "PVC Borewell Drilling Service",
+      title: "Rainwater Harvesting Service",
       description:
-        "We offer expert PVC borewell drilling using high-quality, corrosion-resistant PVC casings ideal for residential, agricultural, and industrial use. With advanced equipment and skilled professionals, we ensure precise drilling, excellent water yield, and long-lasting performance—all with fast turnaround and minimal disruption.",
+        "Being a foremost organization in this industry, we are actively engaged in offering the finest quality Rainwater Harvesting Service.This service is executed by our skilled professionals using high grade tools and advanced technology. Our professionals check all the quality parameters associated to this service and perform the service in the best possible manner. We offer this service as per the requirements of our clients. Further, we provide this service as per the requirements of our clients at most affordable price.",
       image:
-        "https://5.imimg.com/data5/ANDROID/Default/2022/7/WV/WP/DJ/6169003/prod-20220715-0743356041530766023575981-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2022/7/YL/SK/LZ/6169003/rainwater-harvesting-service-500x500.png",
       alt: "Construction building framework",
     },
     {
       id: 2,
-      title: "Agriculture Drilling Service",
+      title: "Rainwater Harvesting Consultancy Service",
       description:
-        "Boost your farm’s water access with our specialized Agriculture Drilling Services. We provide efficient and accurate borewell drilling tailored to agricultural needs, ensuring high water yield for irrigation. With advanced drilling rigs, expert operators, and durable casing solutions, we help farmers secure reliable water sources even in challenging terrains.",
+        "Being a leader in this industry, we are devoted towards providing a premium quality Rainwater Harvesting Consultancy Service.This service is performed as per the requirements of our precious clients. The provided service is highly appreciated by our clients owing to its hassle free execution and cost-effectiveness features. This service is carried out by our highly qualified professionals using excellent grade tools and modern technology. ",
       image:
-        "https://5.imimg.com/data5/ANDROID/Default/2022/7/KL/OA/DB/6169003/product-jpeg-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2022/7/KK/JK/CQ/6169003/rainwater-harvesting-consultancy-service-500x500.png",
       alt: "Steel bridge construction",
-    },
-    {
-      id: 3,
-      title: "Commercial Drilling Service",
-      description:
-        "Our Commercial Drilling Services are designed to meet the high demands of commercial and industrial water needs. From large-scale construction sites to factories and institutions, we deliver deep and dependable borewell solutions using advanced drilling rigs and high-strength casing materials.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2023/10/353940317/FH/TA/BM/6169003/commercial-drilling-service-500x500.png",
-      alt: "Modern commercial building",
-    },
-    {
-      id: 4,
-      title: "Residential Drilling Service",
-      description:
-        "Ensure a reliable and long-lasting water source for your home with our expert Residential Drilling Services. We provide safe, clean, and efficient borewell drilling tailored for residential properties, using advanced equipment and durable casing materials. Whether it's for a single house or a housing complex, we deliver precise, low-disruption drilling with guaranteed water access.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2022/7/LP/HV/QT/6169003/core-drilling-service-500x500.png",
-      alt: "Modern interior dining room",
     },
   ];
 
@@ -112,7 +94,7 @@ const DrillingService = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Borewell Drilling Services
+            Harvesting Services
           </motion.h1>
 
           <motion.nav
@@ -125,7 +107,7 @@ const DrillingService = () => {
               Home
             </span>
             <span className="mx-3 text-yellow-400">/</span>
-            <span className="text-yellow-400">Borewell Drilling Services</span>
+            <span className="text-yellow-400">Harvesting Services</span>
           </motion.nav>
         </div>
       </motion.section>
@@ -139,18 +121,18 @@ const DrillingService = () => {
             variants={headerVariants}
           >
             <h1 className="text-4xl md:text-5xl font-bold uppercase text-gray-900 mb-6 tracking-tight">
-              Our Borewell Drilling Solutions
+              Our Harvesting Solutions
             </h1>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Leading Service Provider of PVC Borewell Drilling Service,
-              Agriculture Drilling Service, Commercial Drilling Service and
-              Residential Drilling Service from Lucknow.
+              Providing you the best range of Rainwater Harvesting Service and
+              Rainwater Harvesting Consultancy Service with effective & timely
+              delivery.
             </p>
           </motion.div>
 
           {/* Services Grid */}
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-10"
             initial="hidden"
             animate="visible"
             variants={containerVariants}
@@ -166,11 +148,11 @@ const DrillingService = () => {
                 }}
               >
                 {/* Image Container */}
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-64 md:h-96 lg:h-96 overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.alt}
-                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black opacity-10 hover:bg-opacity-0 transition-opacity duration-300"></div>
                 </div>
@@ -201,4 +183,4 @@ const DrillingService = () => {
   );
 };
 
-export default DrillingService;
+export default HarvestingService;

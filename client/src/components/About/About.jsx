@@ -223,8 +223,10 @@
 
 import React from "react";
 import { Clock, Send, Award, DollarSign } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const AboutSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -258,7 +260,10 @@ const AboutSection = () => {
             </div>
 
             <div className="pt-4">
-              <button className="inline-flex items-center px-8 py-3 border-2 border-yellow-400 text-yellow-400 font-semibold rounded-sm hover:bg-yellow-400 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
+              <button
+                onClick={() => navigate("/about-us")}
+                className="inline-flex cursor-pointer items-center px-8 py-3 border-2 border-yellow-400 text-yellow-400 font-semibold rounded-sm hover:bg-yellow-400 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2"
+              >
                 Learn More
               </button>
             </div>

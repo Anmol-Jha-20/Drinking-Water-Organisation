@@ -3,43 +3,25 @@ import { motion } from "framer-motion";
 import Header from "../../components/Header/Header.jsx";
 import DrillingImage from "../../assets/Drilling.jpeg";
 
-const DrillingService = () => {
+const IrrigationService = () => {
   const services = [
     {
       id: 1,
-      title: "PVC Borewell Drilling Service",
+      title: "Landscape Irrigation Service",
       description:
-        "We offer expert PVC borewell drilling using high-quality, corrosion-resistant PVC casings ideal for residential, agricultural, and industrial use. With advanced equipment and skilled professionals, we ensure precise drilling, excellent water yield, and long-lasting performance—all with fast turnaround and minimal disruption.",
+        "We are highly acclaimed in this industry for providing an optimum quality Landscape Irrigation Service.This service is widely appreciated by our valuable clients owing to its perfect execution and cost-effectiveness features. The offered service is performed by our highly experienced professionals using the best grade tools and advanced technology. Provided service is carried out in an excellent manner. Further, the provided service can be availed by our valuable clients at most competitive price.",
       image:
-        "https://5.imimg.com/data5/ANDROID/Default/2022/7/WV/WP/DJ/6169003/prod-20220715-0743356041530766023575981-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2023/10/353941887/EH/CD/AY/6169003/landscape-irrigation-service-500x500.png",
       alt: "Construction building framework",
     },
     {
       id: 2,
-      title: "Agriculture Drilling Service",
+      title: "Irrigation Survey Service",
       description:
-        "Boost your farm’s water access with our specialized Agriculture Drilling Services. We provide efficient and accurate borewell drilling tailored to agricultural needs, ensuring high water yield for irrigation. With advanced drilling rigs, expert operators, and durable casing solutions, we help farmers secure reliable water sources even in challenging terrains.",
+        "We are highly acclaimed in this industry for providing an optimum quality Landscape Irrigation Service.This service is widely appreciated by our valuable clients owing to its perfect execution and cost-effectiveness features. The offered service is performed by our highly experienced professionals using the best grade tools and advanced technology. Provided service is carried out in an excellent manner. Further, the provided service can be availed by our valuable clients at most competitive price.",
       image:
-        "https://5.imimg.com/data5/ANDROID/Default/2022/7/KL/OA/DB/6169003/product-jpeg-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2022/7/NN/TK/SG/6169003/irrigation-survey-service-500x500.png",
       alt: "Steel bridge construction",
-    },
-    {
-      id: 3,
-      title: "Commercial Drilling Service",
-      description:
-        "Our Commercial Drilling Services are designed to meet the high demands of commercial and industrial water needs. From large-scale construction sites to factories and institutions, we deliver deep and dependable borewell solutions using advanced drilling rigs and high-strength casing materials.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2023/10/353940317/FH/TA/BM/6169003/commercial-drilling-service-500x500.png",
-      alt: "Modern commercial building",
-    },
-    {
-      id: 4,
-      title: "Residential Drilling Service",
-      description:
-        "Ensure a reliable and long-lasting water source for your home with our expert Residential Drilling Services. We provide safe, clean, and efficient borewell drilling tailored for residential properties, using advanced equipment and durable casing materials. Whether it's for a single house or a housing complex, we deliver precise, low-disruption drilling with guaranteed water access.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2022/7/LP/HV/QT/6169003/core-drilling-service-500x500.png",
-      alt: "Modern interior dining room",
     },
   ];
 
@@ -112,7 +94,7 @@ const DrillingService = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Borewell Drilling Services
+            Irrigation Service
           </motion.h1>
 
           <motion.nav
@@ -125,7 +107,7 @@ const DrillingService = () => {
               Home
             </span>
             <span className="mx-3 text-yellow-400">/</span>
-            <span className="text-yellow-400">Borewell Drilling Services</span>
+            <span className="text-yellow-400">Irrigation Service</span>
           </motion.nav>
         </div>
       </motion.section>
@@ -139,18 +121,18 @@ const DrillingService = () => {
             variants={headerVariants}
           >
             <h1 className="text-4xl md:text-5xl font-bold uppercase text-gray-900 mb-6 tracking-tight">
-              Our Borewell Drilling Solutions
+              Our Irrigation Solutions
             </h1>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Leading Service Provider of PVC Borewell Drilling Service,
-              Agriculture Drilling Service, Commercial Drilling Service and
-              Residential Drilling Service from Lucknow.
+              We offer expert Landscape Irrigation and Irrigation Survey
+              Services, delivering smart, water-efficient solutions tailored to
+              enhance your green spaces and maximize system performance.
             </p>
           </motion.div>
 
           {/* Services Grid */}
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-10"
             initial="hidden"
             animate="visible"
             variants={containerVariants}
@@ -166,7 +148,7 @@ const DrillingService = () => {
                 }}
               >
                 {/* Image Container */}
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-64 md:h-96 lg:h-96 overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.alt}
@@ -201,4 +183,4 @@ const DrillingService = () => {
   );
 };
 
-export default DrillingService;
+export default IrrigationService;

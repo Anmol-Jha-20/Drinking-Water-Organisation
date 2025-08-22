@@ -10,6 +10,7 @@ import {
 import waterefficiencyImage from "../assets/waterefficiency.webp";
 import smartwaterconservationimage from "../assets/SmartWaterConservation.webp";
 import WaterSustainbilityImage from "../assets/WaterSustainbility.webp";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -17,6 +18,7 @@ const Home = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
   const [activeMobileSubDropdown, setActiveMobileSubDropdown] = useState(null);
+  const navigate = useNavigate();
 
   const heroSlides = [
     {
@@ -25,7 +27,7 @@ const Home = () => {
       description:
         "A Rainwater Harvesting System is an eco-friendly method of collecting, storing, and utilizing rainwater for purposes such as irrigation, household use, and groundwater recharge. It reduces dependence on conventional water sources, cuts utility costs, and supports sustainable water management.",
       image: waterefficiencyImage,
-      buttons: ["OUR SERVICES", "GET A QUOTE"],
+      buttons: ["ABOUT US", "GET A QUOTE"],
     },
     {
       title: "Water Sustainability",
@@ -33,7 +35,7 @@ const Home = () => {
       description:
         "Water Sustainability refers to the responsible management and use of water resources to ensure availability for current and future generations. It involves conserving freshwater, protecting natural ecosystems, reducing waste, and promoting efficient water use in agriculture, industry, and daily life.",
       image: WaterSustainbilityImage,
-      buttons: ["OUR SERVICES", "GET A QUOTE"],
+      buttons: ["ABOUT US", "GET A QUOTE"],
     },
     {
       title: "Water Efficiency",
@@ -41,7 +43,7 @@ const Home = () => {
       description:
         "Smart Water Conservation uses technology and data-driven strategies to manage and reduce water use efficiently. It includes smart irrigation systems, water monitoring sensors, leak detection tools, and automated controls that help optimize water usage in homes, agriculture, and industries. ",
       image: smartwaterconservationimage,
-      buttons: ["OUR SERVICES", "GET A QUOTE"],
+      buttons: ["ABOUT US", "GET A QUOTE"],
     },
   ];
 
@@ -55,11 +57,17 @@ const Home = () => {
       hasDropdown: true,
       dropdown: [
         { title: "Drilling Services", href: "/drilling-service" },
-        { title: "Harvesting Service", href: "#" },
-        { title: "Advanced Water Well Drilling Services", href: "#" },
-        { title: "Installation Service", href: "#" },
-        { title: "Irrigation Service", href: "#" },
-        { title: "Rainwater Harvesting Service", href: "#" },
+        { title: "Harvesting Service", href: "/harvesting-service" },
+        {
+          title: "Advanced Water Well Drilling Services",
+          href: "/water-well-drilling-service",
+        },
+        { title: "Installation Service", href: "/installation-service" },
+        { title: "Irrigation Service", href: "/irrigation-service" },
+        {
+          title: "Rainwater Harvesting Service",
+          href: "/rainwater-harvesting-service",
+        },
       ],
     },
 
@@ -205,7 +213,10 @@ const Home = () => {
                     )}
                   </div>
                 ))}
-                <button className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors ml-4">
+                <button
+                  onClick={() => (window.location.href = "tel:9532888668")}
+                  className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors ml-4"
+                >
                   GET A QUOTE
                 </button>
               </div>
@@ -338,7 +349,10 @@ const Home = () => {
                       )}
                     </div>
                   ))}
-                  <button className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors w-fit mt-4">
+                  <button
+                    onClick={() => (window.location.href = "tel:9532888668")}
+                    className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors w-fit mt-4"
+                  >
                     GET A QUOTE
                   </button>
                 </div>
@@ -378,10 +392,16 @@ const Home = () => {
                     {slide.description}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 md:gap-20 justify-center">
-                    <button className="bg-blue-900 cursor-pointer hover:bg-blue-800 text-white px-8 py-3 rounded font-bold transition-colors">
+                    <button
+                      onClick={() => navigate("/about-us")}
+                      className="bg-blue-900 cursor-pointer hover:bg-blue-800 text-white px-8 py-3 rounded font-bold transition-colors"
+                    >
                       {slide.buttons[0]}
                     </button>
-                    <button className="border-2 cursor-pointer border-gray-400 hover:border-white text-white px-8 py-3 rounded font-bold transition-colors">
+                    <button
+                      onClick={() => (window.location.href = "tel:9532888668")}
+                      className="border-2 cursor-pointer border-gray-400 hover:border-white text-white px-8 py-3 rounded font-bold transition-colors"
+                    >
                       {slide.buttons[1]}
                     </button>
                   </div>

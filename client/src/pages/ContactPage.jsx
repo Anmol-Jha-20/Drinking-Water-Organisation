@@ -138,9 +138,9 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <p className="text-gray-900 font-medium">
-                    Email: info@sitename.com
+                    Email: dwoairtel@gmail.com
                   </p>
-                  <p className="text-gray-600">Web: www.sitename.com</p>
+                  {/* <p className="text-gray-600">Web: www.sitename.com</p> */}
                 </div>
               </div>
 

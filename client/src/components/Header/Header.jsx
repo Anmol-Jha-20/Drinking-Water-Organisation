@@ -23,12 +23,18 @@ const Header = () => {
       href: "#",
       hasDropdown: true,
       dropdown: [
-        { title: "Drilling Services", href: "/drilling-service" },
-        { title: "Harvesting Service", href: "#" },
-        { title: "Advanced Water Well Drilling Services", href: "#" },
-        { title: "Installation Service", href: "#" },
-        { title: "Irrigation Service", href: "#" },
-        { title: "Rainwater Harvesting Service", href: "#" },
+        { title: "Borewell Drilling Services", href: "/drilling-service" },
+        { title: "Harvesting Service", href: "/harvesting-service" },
+        {
+          title: "Advanced Water Well Drilling Services",
+          href: "/water-well-drilling-service",
+        },
+        { title: "Installation Service", href: "/installation-service" },
+        { title: "Irrigation Service", href: "/irrigation-service" },
+        {
+          title: "Rainwater Harvesting Service",
+          href: "/rainwater-harvesting-service",
+        },
       ],
     },
     { title: "GALLERY", href: "/gallery" },
@@ -151,7 +157,10 @@ const Header = () => {
                   )}
                 </div>
               ))}
-              <button className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors ml-4">
+              <button
+                onClick={() => (window.location.href = "tel:9532888668")}
+                className="bg-yellow-500 hover:bg-yellow-400 cursor-pointer text-blue-900 px-6 py-3 rounded font-bold transition-colors ml-4"
+              >
                 GET A QUOTE
               </button>
             </div>
@@ -282,7 +291,10 @@ const Header = () => {
                     )}
                   </div>
                 ))}
-                <button className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors w-fit mt-4">
+                <button
+                  onClick={() => (window.location.href = "tel:9532888668")}
+                  className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors w-fit mt-4"
+                >
                   GET A QUOTE
                 </button>
               </div>

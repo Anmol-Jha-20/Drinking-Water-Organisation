@@ -3,43 +3,34 @@ import { motion } from "framer-motion";
 import Header from "../../components/Header/Header.jsx";
 import DrillingImage from "../../assets/Drilling.jpeg";
 
-const DrillingService = () => {
+const InstallationService = () => {
   const services = [
     {
       id: 1,
-      title: "PVC Borewell Drilling Service",
+      title: "PVC Household Tubewell Installation Services",
       description:
-        "We offer expert PVC borewell drilling using high-quality, corrosion-resistant PVC casings ideal for residential, agricultural, and industrial use. With advanced equipment and skilled professionals, we ensure precise drilling, excellent water yield, and long-lasting performance—all with fast turnaround and minimal disruption.",
+        "We offer reliable and efficient PVC tubewell installation for residential properties, ensuring clean and consistent water supply. Using durable, non-corrosive PVC pipes and advanced drilling techniques, our service guarantees safe groundwater access with minimal disruption to your property. Perfect for homes seeking long-term water solutions.",
       image:
-        "https://5.imimg.com/data5/ANDROID/Default/2022/7/WV/WP/DJ/6169003/prod-20220715-0743356041530766023575981-jpg-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2023/6/320243231/NN/KG/NW/6169003/pvc-household-tubewell-installation-services-500x500.jpeg",
       alt: "Construction building framework",
     },
     {
       id: 2,
-      title: "Agriculture Drilling Service",
+      title: "PVC Submersible Pump Installation Service",
       description:
-        "Boost your farm’s water access with our specialized Agriculture Drilling Services. We provide efficient and accurate borewell drilling tailored to agricultural needs, ensuring high water yield for irrigation. With advanced drilling rigs, expert operators, and durable casing solutions, we help farmers secure reliable water sources even in challenging terrains.",
+        "We provide expert installation of PVC submersible pumps for efficient and reliable water extraction from borewells and tubewells. Our service ensures proper alignment, secure fittings, and long-lasting performance using corrosion-resistant PVC materials—ideal for residential, agricultural, and commercial applications.",
       image:
-        "https://5.imimg.com/data5/ANDROID/Default/2022/7/KL/OA/DB/6169003/product-jpeg-500x500.jpg",
+        "https://5.imimg.com/data5/SELLER/Default/2022/7/TV/OE/VX/6169003/submersible-pump-installation-service-500x500.png",
       alt: "Steel bridge construction",
     },
     {
       id: 3,
-      title: "Commercial Drilling Service",
+      title: "PVC Domestic Tubewell Installation Service",
       description:
-        "Our Commercial Drilling Services are designed to meet the high demands of commercial and industrial water needs. From large-scale construction sites to factories and institutions, we deliver deep and dependable borewell solutions using advanced drilling rigs and high-strength casing materials.",
+        "We specialize in installing high-quality PVC tubewells for domestic use, ensuring a steady and safe water supply for households. Our service uses durable, non-corrosive PVC materials and advanced drilling techniques to deliver long-lasting performance with minimal maintenance—perfect for daily home water needs.",
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2023/10/353940317/FH/TA/BM/6169003/commercial-drilling-service-500x500.png",
+        "https://5.imimg.com/data5/SELLER/Default/2023/6/320243104/CR/PU/WT/6169003/pvc-domestic-tubewell-installation-service-500x500.jpeg",
       alt: "Modern commercial building",
-    },
-    {
-      id: 4,
-      title: "Residential Drilling Service",
-      description:
-        "Ensure a reliable and long-lasting water source for your home with our expert Residential Drilling Services. We provide safe, clean, and efficient borewell drilling tailored for residential properties, using advanced equipment and durable casing materials. Whether it's for a single house or a housing complex, we deliver precise, low-disruption drilling with guaranteed water access.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2022/7/LP/HV/QT/6169003/core-drilling-service-500x500.png",
-      alt: "Modern interior dining room",
     },
   ];
 
@@ -112,7 +103,7 @@ const DrillingService = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Borewell Drilling Services
+            Installation Service
           </motion.h1>
 
           <motion.nav
@@ -125,7 +116,7 @@ const DrillingService = () => {
               Home
             </span>
             <span className="mx-3 text-yellow-400">/</span>
-            <span className="text-yellow-400">Borewell Drilling Services</span>
+            <span className="text-yellow-400">Installation Service</span>
           </motion.nav>
         </div>
       </motion.section>
@@ -139,12 +130,13 @@ const DrillingService = () => {
             variants={headerVariants}
           >
             <h1 className="text-4xl md:text-5xl font-bold uppercase text-gray-900 mb-6 tracking-tight">
-              Our Borewell Drilling Solutions
+              Our Installation Solutions
             </h1>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Leading Service Provider of PVC Borewell Drilling Service,
-              Agriculture Drilling Service, Commercial Drilling Service and
-              Residential Drilling Service from Lucknow.
+              Providing you the best range of PVC Household Tubewell
+              Installation Services, PVC Submersible Pump Installation Service
+              and PVC Domestic Tubewell Installation Service with effective &
+              timely delivery.
             </p>
           </motion.div>
 
@@ -201,4 +193,4 @@ const DrillingService = () => {
   );
 };
 
-export default DrillingService;
+export default InstallationService;
