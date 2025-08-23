@@ -139,12 +139,17 @@ const Home = () => {
             <div className="flex justify-between items-center py-4">
               {/* Logo */}
               <div className="flex items-center">
-                <div className="bg-yellow-500 text-blue-900 w-16 h-16 rounded-full flex items-center justify-center font-bold text-lg mr-2">
+                {/* <div className="bg-yellow-500 text-blue-900 w-16 h-16 rounded-full flex items-center justify-center font-bold text-lg mr-2">
                   DWO
                 </div>
                 <span className="text-xl font-bold">
                   Drinking Water Organisation
-                </span>
+                </span> */}
+                <img
+                  src="DWOLogo.png"
+                  className="h-14 w-auto md:h-16 object-contain rounded"
+                  alt="Logo"
+                />
               </div>
 
               {/* Desktop Menu */}
