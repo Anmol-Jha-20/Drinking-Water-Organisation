@@ -158,7 +158,12 @@ const Header = () => {
                 </div>
               ))}
               <button
-                onClick={() => (window.location.href = "tel:9532888668")}
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/919335249074?text=Hey!%20I%20am%20interested%20in%20your%20services.",
+                    "_blank"
+                  )
+                }
                 className="bg-yellow-500 hover:bg-yellow-400 cursor-pointer text-blue-900 px-6 py-3 rounded font-bold transition-colors ml-4"
               >
                 GET A QUOTE
@@ -292,7 +297,12 @@ const Header = () => {
                   </div>
                 ))}
                 <button
-                  onClick={() => (window.location.href = "tel:9532888668")}
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/919335249074?text=Hey!%20I%20am%20interested%20in%20your%20services.",
+                      "_blank"
+                    )
+                  }
                   className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors w-fit mt-4"
                 >
                   GET A QUOTE

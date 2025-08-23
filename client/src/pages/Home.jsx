@@ -11,6 +11,8 @@ import waterefficiencyImage from "../assets/waterefficiency.webp";
 import smartwaterconservationimage from "../assets/SmartWaterConservation.webp";
 import WaterSustainbilityImage from "../assets/WaterSustainbility.webp";
 import { useNavigate } from "react-router-dom";
+import DrillingImage from "../assets/Drilling.jpeg";
+import Waterpipesimage from "../assets/waterpipes.jpeg";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -22,11 +24,12 @@ const Home = () => {
 
   const heroSlides = [
     {
-      title: "Rainwater Harvesting",
+      title: "Agriculture Drilling Service",
       subtitle: "",
       description:
-        "A Rainwater Harvesting System is an eco-friendly method of collecting, storing, and utilizing rainwater for purposes such as irrigation, household use, and groundwater recharge. It reduces dependence on conventional water sources, cuts utility costs, and supports sustainable water management.",
-      image: waterefficiencyImage,
+        "Boost your farm’s water access with our specialized Agriculture Drilling Services. We provide efficient and accurate borewell drilling tailored to agricultural needs, ensuring high water yield for irrigation.",
+      image:
+        "https://5.imimg.com/data5/ANDROID/Default/2022/7/KL/OA/DB/6169003/product-jpeg-500x500.jpg",
       buttons: ["ABOUT US", "GET A QUOTE"],
     },
     {
@@ -34,15 +37,15 @@ const Home = () => {
       subtitle: "AND REMODELING",
       description:
         "Water Sustainability refers to the responsible management and use of water resources to ensure availability for current and future generations. It involves conserving freshwater, protecting natural ecosystems, reducing waste, and promoting efficient water use in agriculture, industry, and daily life.",
-      image: WaterSustainbilityImage,
+      image: DrillingImage,
       buttons: ["ABOUT US", "GET A QUOTE"],
     },
     {
-      title: "Water Efficiency",
+      title: "PVC Borewell Drilling Service",
       subtitle: "CONTRACTORS",
       description:
-        "Smart Water Conservation uses technology and data-driven strategies to manage and reduce water use efficiently. It includes smart irrigation systems, water monitoring sensors, leak detection tools, and automated controls that help optimize water usage in homes, agriculture, and industries. ",
-      image: smartwaterconservationimage,
+        "We offer expert PVC borewell drilling using high-quality, corrosion-resistant PVC casings ideal for residential, agricultural, and industrial use. With advanced equipment and skilled professionals, we ensure precise drilling, excellent water yield, and long-lasting performance—all with fast turnaround and minimal disruption.",
+      image: Waterpipesimage,
       buttons: ["ABOUT US", "GET A QUOTE"],
     },
   ];
@@ -118,12 +121,12 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-yellow-500" />
-                <span className="text-gray-500">Call</span>
+                <span className="text-gray-500">Call:</span>
                 <span className="font-medium">(+91) 95328 88668</span>
               </div>
               <div className="flex items-center gap-2">
                 <MessageCircle className="w-4 h-4 text-yellow-500" />
-                <span className="text-gray-500">WhatsApp</span>
+                <span className="text-gray-500">WhatsApp:</span>
                 <span className="font-medium">(+91) 93352 49074</span>
               </div>
             </div>
@@ -214,8 +217,13 @@ const Home = () => {
                   </div>
                 ))}
                 <button
-                  onClick={() => (window.location.href = "tel:9532888668")}
-                  className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors ml-4"
+                  onClick={() =>
+                    window.open(
+                      "https://wa.me/919335249074?text=Hey!%20I%20am%20interested%20in%20your%20services.",
+                      "_blank"
+                    )
+                  }
+                  className="bg-yellow-500 hover:bg-yellow-400 cursor-pointer text-blue-900 px-6 py-3 rounded font-bold transition-colors ml-4"
                 >
                   GET A QUOTE
                 </button>
@@ -350,7 +358,12 @@ const Home = () => {
                     </div>
                   ))}
                   <button
-                    onClick={() => (window.location.href = "tel:9532888668")}
+                    onClick={() =>
+                      window.open(
+                        "https://wa.me/919335249074?text=Hey!%20I%20am%20interested%20in%20your%20services.",
+                        "_blank"
+                      )
+                    }
                     className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 px-6 py-3 rounded font-bold transition-colors w-fit mt-4"
                   >
                     GET A QUOTE
@@ -377,13 +390,13 @@ const Home = () => {
                 backgroundImage: `url(${slide.image})`,
               }}
             >
-              <div className="absolute inset-0"></div>
+              <div className="absolute inset-0 bg-black opacity-20"></div>
             </div>
 
             <div className="relative z-10 h-full flex items-center justify-center text-center">
               <div className="max-w-7xl mx-auto px-4 w-full">
                 <div className="max-w-3xl mx-auto text-white">
-                  <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight text-yellow-500">
+                  <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold mb-4 leading-tight text-yellow-500">
                     {slide.title}
                     <br />
                     {/* <span className="text-yellow-500">{slide.subtitle}</span> */}
