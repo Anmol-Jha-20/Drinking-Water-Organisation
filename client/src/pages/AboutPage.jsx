@@ -85,9 +85,9 @@ const AboutPage = () => {
               >
                 Established in 1995, we have grown from a humble beginning into
                 a forward-thinking and reliable name in the field of water
-                management. As a seasoned Manufacturer and Service Provider, we
-                specialize in Drilling Services, Irrigation Systems, Rainwater
-                Harvesting Solutions, and other sustainable water technologies.
+                management. As a seasoned Service Provider, we specialize in
+                Drilling Services, Irrigation Systems, Rainwater Harvesting
+                Solutions, and other sustainable water technologies.
               </motion.p>
 
               <motion.p

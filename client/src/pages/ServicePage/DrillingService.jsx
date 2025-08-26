@@ -23,24 +23,24 @@ const DrillingService = () => {
         "https://5.imimg.com/data5/ANDROID/Default/2022/7/KL/OA/DB/6169003/product-jpeg-500x500.jpg",
       alt: "Steel bridge construction",
     },
-    {
-      id: 3,
-      title: "Commercial Drilling Service",
-      description:
-        "Our Commercial Drilling Services are designed to meet the high demands of commercial and industrial water needs. From large-scale construction sites to factories and institutions, we deliver deep and dependable borewell solutions using advanced drilling rigs and high-strength casing materials.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2023/10/353940317/FH/TA/BM/6169003/commercial-drilling-service-500x500.png",
-      alt: "Modern commercial building",
-    },
-    {
-      id: 4,
-      title: "Residential Drilling Service",
-      description:
-        "Ensure a reliable and long-lasting water source for your home with our expert Residential Drilling Services. We provide safe, clean, and efficient borewell drilling tailored for residential properties, using advanced equipment and durable casing materials. Whether it's for a single house or a housing complex, we deliver precise, low-disruption drilling with guaranteed water access.",
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2022/7/LP/HV/QT/6169003/core-drilling-service-500x500.png",
-      alt: "Modern interior dining room",
-    },
+    // {
+    //   id: 3,
+    //   title: "Commercial Drilling Service",
+    //   description:
+    //     "Our Commercial Drilling Services are designed to meet the high demands of commercial and industrial water needs. From large-scale construction sites to factories and institutions, we deliver deep and dependable borewell solutions using advanced drilling rigs and high-strength casing materials.",
+    //   image:
+    //     "https://5.imimg.com/data5/SELLER/Default/2023/10/353940317/FH/TA/BM/6169003/commercial-drilling-service-500x500.png",
+    //   alt: "Modern commercial building",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Residential Drilling Service",
+    //   description:
+    //     "Ensure a reliable and long-lasting water source for your home with our expert Residential Drilling Services. We provide safe, clean, and efficient borewell drilling tailored for residential properties, using advanced equipment and durable casing materials. Whether it's for a single house or a housing complex, we deliver precise, low-disruption drilling with guaranteed water access.",
+    //   image:
+    //     "https://5.imimg.com/data5/SELLER/Default/2022/7/LP/HV/QT/6169003/core-drilling-service-500x500.png",
+    //   alt: "Modern interior dining room",
+    // },
   ];
 
   const containerVariants = {

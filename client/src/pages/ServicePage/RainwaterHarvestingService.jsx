@@ -431,11 +431,11 @@ const RainwaterHarvestingService = () => {
               >
                 Established in 1995, M/S Drinking Water Organisation has over 30
                 years of trusted expertise in delivering high-quality water
-                solutions. As a leading Manufacturer and Service Provider, we
-                specialize in Drilling Services, Irrigation Solutions, and
-                Rainwater Harvesting Systems, offering end-to-end services
-                tailored to meet the unique needs of residential, commercial,
-                and agricultural clients. Our commitment to innovation, customer
+                solutions. As a leading Service Provider, we specialize in
+                Drilling Services, Irrigation Solutions, and Rainwater
+                Harvesting Systems, offering end-to-end services tailored to
+                meet the unique needs of residential, commercial, and
+                agricultural clients. Our commitment to innovation, customer
                 satisfaction, and sustainable practices sets us apart as a
                 reliable partner in water management.
               </motion.p>

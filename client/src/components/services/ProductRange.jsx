@@ -224,10 +224,10 @@ const ProductRange = () => {
             OUR SERVICE
           </h1>
           <p className="text-gray-700 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed px-4">
-            As a leading manufacturer and service provider, we specialize in a
-            wide range of services including drilling, irrigation, rainwater
-            harvesting systems, and PVC tubewell and submersible pump
-            installations for both domestic and agricultural use.
+            As a leading service provider, we specialize in a wide range of
+            services including drilling, irrigation, rainwater harvesting
+            systems, and PVC tubewell and submersible pump installations for
+            both domestic and agricultural use.
           </p>
         </header>
 

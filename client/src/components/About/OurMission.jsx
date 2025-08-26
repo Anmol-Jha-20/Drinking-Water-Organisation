@@ -142,14 +142,14 @@ const OurMissionSection = () => {
                 variants={itemVariants}
               >
                 Since our founding in 1995, we have steadily grown from a small
-                operation into a reputable manufacturer and service provider
-                specializing in Drilling Services, Irrigation Solutions, and
-                Rainwater Harvesting Systems. Over the decades, our commitment
-                to quality, innovation, and customer satisfaction has driven us
-                to expand our expertise and adapt to evolving industry needs.
-                Our journey reflects a legacy of trusted partnerships,
-                successful projects, and a passion for sustainable water
-                management that continues to shape our future.
+                operation into a reputable service provider specializing in
+                Drilling Services, Irrigation Solutions, and Rainwater
+                Harvesting Systems. Over the decades, our commitment to quality,
+                innovation, and customer satisfaction has driven us to expand
+                our expertise and adapt to evolving industry needs. Our journey
+                reflects a legacy of trusted partnerships, successful projects,
+                and a passion for sustainable water management that continues to
+                shape our future.
               </motion.p>
             </div>
 

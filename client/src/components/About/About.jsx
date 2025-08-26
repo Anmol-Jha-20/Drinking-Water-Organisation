@@ -246,11 +246,11 @@ const AboutSection = () => {
               <p>
                 Established in 1995, <b>Drinking Water Organisation</b> has been
                 a trusted name in delivering innovative and reliable water
-                solutions across India. As a leading manufacturer and service
-                provider, we specialize in a wide range of services including
-                drilling, irrigation, rainwater harvesting systems, and PVC
-                tubewell and submersible pump installations for both domestic
-                and agricultural use.
+                solutions across India. As a leading service provider, we
+                specialize in a wide range of services including drilling,
+                irrigation, rainwater harvesting systems, and PVC tubewell and
+                submersible pump installations for both domestic and
+                agricultural use.
               </p>
               <p>
                 With decades of expertise and a strong commitment to quality, we

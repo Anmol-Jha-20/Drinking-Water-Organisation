@@ -35,11 +35,10 @@ const Footer = () => {
                 <strong className="text-white">
                   Drinking Water Organisation(DWO)
                 </strong>{" "}
-                is Manufacturer & Service Provider of Drilling Service,
-                Irrigation Service, Rain Water Harvesting System, PVC Household
-                Tubewell Installation Services, PVC Submersible Pump
-                Installation Service and PVC Domestic Tubewell Installation
-                Service, etc
+                is Service Provider of Drilling Service, Irrigation Service,
+                Rain Water Harvesting System, PVC Household Tubewell
+                Installation Services, PVC Submersible Pump Installation Service
+                and PVC Domestic Tubewell Installation Service, etc
               </p>
               <a
                 href="/about-us"

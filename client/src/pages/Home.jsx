@@ -59,7 +59,7 @@ const Home = () => {
       href: "#",
       hasDropdown: true,
       dropdown: [
-        { title: "Drilling Services", href: "/drilling-service" },
+        { title: "Borewell Drilling Services", href: "/drilling-service" },
         { title: "Harvesting Service", href: "/harvesting-service" },
         {
           title: "Advanced Water Well Drilling Services",

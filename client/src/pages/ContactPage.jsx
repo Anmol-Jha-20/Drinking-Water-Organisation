@@ -211,13 +211,13 @@ export default function ContactPage() {
               </h2>
               <div className="w-16 h-1 bg-yellow-500 mb-6"></div>
               <p className="text-gray-600 mb-8">
-                Established in 1995, we are a trusted Manufacturer and Service
-                Provider offering a wide range of water management solutions,
-                including Drilling Services, Irrigation Systems, and Rainwater
-                Harvesting Solutions. With decades of experience and a
-                commitment to quality, we’re here to support your needs with
-                reliable and efficient services. Drop us a message — our team
-                will be happy to assist you!
+                Established in 1995, we are a trusted Service Provider offering
+                a wide range of water management solutions, including Drilling
+                Services, Irrigation Systems, and Rainwater Harvesting
+                Solutions. With decades of experience and a commitment to
+                quality, we’re here to support your needs with reliable and
+                efficient services. Drop us a message — our team will be happy
+                to assist you!
               </p>
             </div>
 
