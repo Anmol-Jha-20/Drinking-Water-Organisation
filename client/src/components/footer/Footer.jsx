@@ -35,8 +35,8 @@ const Footer = () => {
                 <strong className="text-white">
                   Drinking Water Organisation(DWO)
                 </strong>{" "}
-                is Service Provider of Drilling Service, Irrigation Service,
-                Rain Water Harvesting System, PVC Household Tubewell
+                is Service Provider of Borewell Drilling Service, Irrigation
+                Service, Rain Water Harvesting System, PVC Household Tubewell
                 Installation Services, PVC Submersible Pump Installation Service
                 and PVC Domestic Tubewell Installation Service, etc
               </p>
@@ -134,7 +134,7 @@ const Footer = () => {
                 <ul className="space-y-2">
                   <li>
                     <a href="#" className="hover:text-white transition-colors">
-                      Drilling Services
+                      Borewell Drilling Services
                     </a>
                   </li>
                   <li>

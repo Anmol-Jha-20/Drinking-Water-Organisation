@@ -161,10 +161,10 @@ const ProductRange = () => {
   const services = [
     {
       image:
-        "https://5.imimg.com/data5/SELLER/Default/2023/10/353940317/FH/TA/BM/6169003/commercial-drilling-service-500x500.png",
-      title: "Drilling Services",
+        "https://5.imimg.com/data5/ANDROID/Default/2022/7/WV/WP/DJ/6169003/prod-20220715-0743356041530766023575981-jpg-500x500.jpg",
+      title: "PVC Borewell Drilling Services",
       description:
-        "Leading Service Provider of Commercial Drilling Service, PVC Borewell Drilling Service, Residential Drilling Service and Agriculture Drilling Service from Lucknow.",
+        "Leading Service Provider of PVC Borewell Drilling Service, Residential Drilling Service and Agriculture Drilling Service from Lucknow.",
       altText:
         "Multi-story building under construction with concrete floors and yellow safety railings",
     },
@@ -225,9 +225,9 @@ const ProductRange = () => {
           </h1>
           <p className="text-gray-700 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed px-4">
             As a leading service provider, we specialize in a wide range of
-            services including drilling, irrigation, rainwater harvesting
-            systems, and PVC tubewell and submersible pump installations for
-            both domestic and agricultural use.
+            services including borewell drilling, irrigation, rainwater
+            harvesting systems, and PVC tubewell and submersible pump
+            installations for both domestic and agricultural use.
           </p>
         </header>
 
